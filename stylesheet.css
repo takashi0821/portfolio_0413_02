@@ -1,0 +1,379 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+header{
+    background-color: white;
+    background-size: cover;
+    width: 100%;    
+}
+
+.header-list{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.header-list ul{
+    border-left: 1px solid #20E2D7; 
+    padding-left: 30px;
+}
+
+.header-list li{
+    font-family:'Lato', sans-serif;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: #20E2D7;    
+}
+
+.header-list li:hover{
+    border-bottom: 1px solid #20E2D7;
+}
+
+main{
+    background-color: white;
+    background-size: cover;
+    width: 100%;   
+}
+
+.main-contents{
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo{
+    text-align: center;
+    background-image: linear-gradient(225deg, #20E2D7 0%, #F9FEA5 100%);
+}
+
+.main-logo h1{
+    font-family:'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 76px;
+    color: snow;
+}
+
+.T{
+    padding-top: 72px;
+    padding-right: 44px;
+    padding-left: 44px;
+}
+
+.I{
+    padding-bottom: 72px;
+}
+
+.scroll-icon1{
+    text-align: center;
+    color: white;
+    margin-top:60px;
+    padding-bottom: 20px;
+}
+
+.fas{
+    font-size: 48px;
+}
+
+.fa-angle-down{
+    color: #20E2D7;
+    transition: all 0.3s linear 0s;
+}
+
+.fa-angle-down:hover{
+    transform: rotateY(180deg);
+}
+
+.main-about{
+    color: #20E2D7;
+    margin-top: 20px;
+}
+
+.about-title{
+    text-align: left;
+}
+
+.about-title h1{
+    font-family:'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 62px;
+    color: #20E2D7;
+    margin-left: 40px;
+}
+
+.about-sentences{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.about-container{
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+
+}
+
+.about-left{
+    font-size: 16px;
+    font-weight: lighter;
+    color: gray;
+    margin:32px 0 40px 40px;
+    text-align: left;
+    font-weight: bold;
+    border-left: 1px solid #20E2D7;
+    padding-left: 30px;
+}
+
+.about-left p{
+    font-weight: normal;
+}
+
+.thin {
+    font-size: 20px;
+}
+
+.about-right{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.prof,.career,.can{
+    margin-top: 26px;
+    font-family:'Lato', sans-serif;
+}
+
+.about-prof,.about-career,.about-can{
+    margin-top: 0px;
+}
+
+.about-can{
+    letter-spacing: 8px;
+}
+
+.icon img{
+    width: 90%;
+    height: 90%;
+}
+
+.scroll-icon2{
+    color: white; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+.portfolio-sentense{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.portfolio-sentense p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #20E2D7;
+}
+
+.portfolio-sentense h1{
+    font-family:'Lato', sans-serif;
+    font-weight: 200;
+    color: #20E2D7;
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+.portfolio-sentense p{ 
+    font-size: 16px;
+}
+
+.date{
+    font-family:'Lato', sans-serif;  
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.portfolio-contents{
+    padding: 50px 0 50px 0;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    border-top:2px solid #20E2D7;
+}
+
+.image-1,.image-2,.image-3{
+    width: 360px;
+    height: 160px;  
+    margin-top:40px;
+}
+
+.image-1{
+    background-image: url("hajimete.png");
+    background-size: cover;
+}
+
+.image-2{
+    background-image: url("responsive.png");
+    background-size: cover;
+}
+
+.image-3{
+    background-image: url("bootstrap.png");
+    background-size: cover;
+}
+
+.image-1:hover{
+    filter: brightness(80%);
+}
+
+.image-2:hover{
+    filter: brightness(80%);
+}
+
+.image-3:hover{
+    filter: brightness(80%);
+}
+
+.image-sentense{
+    margin-top: 30px;
+    font-size: 20px;
+    color: gray; 
+}
+
+.fa-angle-double-up{
+    color: white;
+    transition: all 0.3s linear 0s;
+}
+
+.fa-twitter-square{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.fa-angle-double-up:hover{
+    transform: rotateY(180deg);
+}
+
+.fa-twitter-square:hover{
+    transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding-top: 30px;
+}
+
+.footer-contents{
+    background-image: linear-gradient(225deg, #20E2D7 0%, #F9FEA5 100%);;
+    color: white;
+    text-align: center;
+}
+
+.footer-icon{
+    margin-left: 40px;
+}
+
+.footer-logo{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+@media all and (max-width: 1024px) {
+
+    .header-list ul{
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+
+    .main-contents{
+        padding: 350px 0;
+    }
+
+    .about-title{
+        margin-right:0;
+    }
+
+    .about-container{
+        flex-direction:column;
+    } 
+
+    .about-sentences{
+        margin-top: 40px;
+        order: 2;
+    }
+
+    .about-left{
+        margin-left: 100px;
+    }
+
+    .about-right{
+        margin-left:0;
+        order: 1;
+        text-align: center;
+    }
+
+    .images{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    .image-1,.image-2,.image-3{
+        width: 630px;
+        height: 280px;  
+        margin-top:100px;
+        box-shadow: 8px 8px rgba(185, 185, 185,0.5);
+    }
+
+    .main-about{
+        padding-top: 280px;
+    }
+
+    .about-container{
+        padding-bottom: 160px;
+    }
+
+    .portfolio-sentense{
+        padding: 120px 0;
+    }
+
+    .fa-line{
+        margin-left: 40px;
+    }
+
+    .fa-twitter-square,.fa-line{
+        font-size: 108px;
+    }
+
+}

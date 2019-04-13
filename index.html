@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Portfolio_2</title>
+      <link rel="stylesheet" href="stylesheet.css">
+      <link rel="stylesheet" href="responsive.css">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script type="text/javascript">
+        $(function(){
+            $('a[href^=#]').click(function(){
+                var speed = 300;
+                var href= $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top;
+                $("html, body").animate({scrollTop:position}, speed, "swing");
+                return false;
+            });
+        });
+        </script>
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,700" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+      <header>
+
+          <div class="header-list">
+              <ul>
+                  <a href="https://takashi0821.github.io/home_0413/."><li>home</li></a>
+                  <a href="#1"><li>about</li></a>
+                  <a href="#2"><li>portfolio</li></a>
+              </ul>
+          </div>
+
+      </header>
+
+      <main>
+
+        <section>
+
+            <div class="main-contents">
+                <div class="main-logo">
+                    <h1 class="T">Takashi</h1>
+                    <h1 class="I">Inoue</h1>
+                </div>
+            </div>
+        
+            <div class="scroll">
+                <div class="scroll-icon1">
+                <a href="#1"><div class="fas fa-angle-down"></div></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about">
+
+            <div id="1"></div>
+
+            <div class="main-about">             
+
+                <div class="about-container">
+
+                    <div class="about-sentences">
+
+                            <div class="about-title">
+                                <h1>about</h1>                 
+                            </div>  
+
+
+                            <div class="about-left">
+
+                                    <div class="name">
+                                        <p>name :</p>
+                                        <p class="thin">井上　貴</p>
+                                    </div>
+
+                                    <div class="prof">
+                                        <p>profile :</p>
+                                        <p class="thin">1991年8月21日生まれ(満27歳)、A型、しし座</p>
+
+                                    </div>
+            
+                                    <div class="career">
+                                        <p>career :</p>
+                                        <p class="thin">2010年3月 福岡大学附属大濠高等学校 卒業</p>
+                                    </div>
+
+                                    <div class="can">
+                                        <p>skills :</p>
+                                        <p class="thin">HTML & CSS</p>
+                                    </div>
+            
+                                </div>
+
+                    </div>
+
+                    <div class="about-right">
+
+                        <div class="icon">
+                            <img src="icon.png">
+                        </div>
+
+                    </div> 
+
+                </div>
+
+                <div class="scroll">
+                        <div class="scroll-icon2">
+                        <a href="#2"><div class="fas fa-angle-down"></div></a>
+                        </div>
+                    </div>
+
+            </div>
+
+        </section>
+
+        <section class="Portfolio">
+
+            <div id="2"></div>
+
+            <div class="portfolio-sentense">
+                <h1>portfolio</h1>
+                <p>2019/02/05 ~ 2019/04/15</p>
+            </div>
+
+            <div class="portfolio-contents">
+
+                <div class="images">
+
+                    <div class="image">
+
+                        <a href="https://takashi0821.github.io/hajimete/" class="img-1"><div class="image-1"></div></a>
+                        
+                        <div class="image-sentense">
+                            <p class="date">2019/03/19</p>
+                            <p>はじめて作ったポートフォリオ</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="image">                     
+
+                        <a href="https://takashi0821.github.io/responsive_0329/." class="img-2"><div class="image-2"></div></a>
+
+
+                        <div class="image-sentense">
+                            <p class="date">2019/03/29</p>
+                            <p>レスポンシブ対応の方法を学ぼう</p>
+                        </div>
+
+                    </div>
+
+                    <div class="image">
+
+                        <a href="https://takashi0821.github.io/bootstrap_0402/." class="img-3"><div class="image-3"></div></a>
+
+                        <div class="image-sentense">
+                            <p class="date">2019/04/02</p>
+                            <p>Bootstrapを使ってみる</p>
+                        </div>
+
+                    </div>
+            
+                </div>
+
+            </div>
+
+        </section>
+
+ 
+
+        </main>
+
+      <footer>
+
+          <div class="footer-contents">
+
+                <div class="icons">
+
+                    <div class="space"></div>
+
+                    <div class="footer-icon">
+                        <a href="#" class="to-top"><div class="fas fa-angle-double-up"></div></a>           
+                    </div>
+
+                    <div class="contact">
+                        <a href="https://twitter.com/GftdTakashi" class="twitter"><div class="fab fa-twitter-square"></div></a>
+                    </div>
+
+                </div>
+        
+                <div class="footer-logo">
+                    <p>© 2019 Takashi Inoue All Rights Reserved.</p>
+                </div>
+
+          </div>
+
+
+
+      </footer>
+
+  </body>
+</html>

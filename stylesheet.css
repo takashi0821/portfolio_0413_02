@@ -307,3 +307,74 @@ main{
     font-size: 12px;
     padding-bottom: 5px;
 }
+
+@media all and (max-width: 1024px) {
+
+    .header-list ul{
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+
+    .main-contents{
+        padding: 350px 0;
+    }
+
+    .about-title{
+        margin-right:0;
+    }
+
+    .about-container{
+        flex-direction:column;
+    } 
+
+    .about-sentences{
+        margin-top: 40px;
+        order: 2;
+    }
+
+    .about-left{
+        margin-left: 100px;
+    }
+
+    .about-right{
+        margin-left:0;
+        order: 1;
+        text-align: center;
+    }
+
+    .images{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    .image-1,.image-2,.image-3{
+        width: 630px;
+        height: 280px;  
+        margin-top:100px;
+        box-shadow: 8px 8px rgba(185, 185, 185,0.5);
+    }
+
+    .main-about{
+        padding-top: 280px;
+    }
+
+    .about-container{
+        padding-bottom: 160px;
+    }
+
+    .portfolio-sentense{
+        padding: 120px 0;
+    }
+
+    .fa-line{
+        margin-left: 40px;
+    }
+
+    .fa-twitter-square,.fa-line{
+        font-size: 108px;
+    }
+
+}
+
